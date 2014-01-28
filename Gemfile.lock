@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/anjlab/bootstrap-rails.git
-  revision: 3250d5494a8fb2715d3a16e24c7b82f57266ff42
-  specs:
-    anjlab-bootstrap-rails (3.0.3.0)
-      railties (>= 3.0)
-      sass (>= 3.2)
-
-GIT
   remote: git://github.com/sunspot/sunspot.git
   revision: 56b85273163c22a7f690fd8080d5b0e7c8ec55e1
   branch: master
@@ -57,6 +49,8 @@ GEM
     bootstrap-kaminari-views (0.0.3)
       kaminari (>= 0.13)
       rails (>= 3.1)
+    bootstrap-sass (3.0.3.0)
+      sass (~> 3.2)
     builder (3.1.4)
     cancan (1.6.10)
     capybara (2.2.1)
@@ -287,8 +281,8 @@ PLATFORMS
 
 DEPENDENCIES
   active_attr
-  anjlab-bootstrap-rails!
   bootstrap-kaminari-views
+  bootstrap-sass (~> 3.0.3.0)
   cancan
   capybara
   carrierwave
