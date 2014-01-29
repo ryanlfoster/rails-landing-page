@@ -7,6 +7,7 @@
 *.rbc
 *.sassc
 .sass-cache
+*.pid
 capybara-*.html
 .rspec
 /log
