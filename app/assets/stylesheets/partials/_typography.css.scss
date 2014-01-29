@@ -1,0 +1,87 @@
+// =========
+// = Fonts =
+// =========
+// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+// =============
+// = Variables =
+// =============
+$font-small: 10px;
+$font-default: 14px;
+$font-large: 18px;
+$font-xl: 24px;
+
+$font-w-light: 300;
+$font-w-normal: 400;
+$font-w-bold: 600;
+
+// ===========
+// = Generic =
+// ===========
+
+// colors
+.font-std-color{ color: $light-black; }
+.font-white{ color: white; }
+.font-blue{ color: $blue; }
+.font-red{ color: $red; }
+.font-green{ color: $green; }
+.font-orange{ color: $orange; }
+.font-black{ color: $black; }
+.font-grey{ color: $grey; }
+
+// decoration
+.underline{ text-decoration: underline; }
+.no-underline{ text-decoration: none; }
+
+// sizes
+.font-small{ font-size: $font-small; }
+.font-default{ font-size: $font-default; }
+.font-large{ font-size: $font-large; }
+.font-xl{ font-size: $font-xl; }
+
+// Weights
+.font-w-light{ font-weight: $font-w-light; }
+.font-w-normal{ font-weight: $font-w-normal; }
+.font-w-bold{ font-weight: $font-w-bold; }
+
+// Positioning
+.text-justify{ text-align: justify; }
+
+// ============
+// = Headings =
+// ============
+h1, h2, h3, h4, h5, h6 {
+	font-size: $default-font;
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+.heading-l{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 600;
+}
+
+.heading-m{
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 600;
+}
+
+.heading-s{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.heading-bold{
+  font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+
+
+

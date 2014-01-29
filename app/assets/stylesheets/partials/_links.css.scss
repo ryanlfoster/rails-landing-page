@@ -1,0 +1,24 @@
+.l-default-hover{
+  &:hover{ color: $link-color !important; }
+}
+.l-green-hover{
+  &:hover{ color: $green !important; }
+}
+.l-red-hover{
+  &:hover{ color: $red !important; }
+}
+.l-muted-hover{
+  &:hover{ color: darken($grey-dark, 10%) !important; }
+}
+.l-black-hover{
+  &:hover{ color: $medium-black !important; }
+}
+
+.l-no-decoration{
+  text-decoration: none !important;
+}
+
+.l-grey-blue{
+  color: $light-black;
+  &:hover{ color: $link-color; }
+}

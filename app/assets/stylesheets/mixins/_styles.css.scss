@@ -1,0 +1,11 @@
+@mixin default_button_style($color){
+	border: 1px solid darken($color, 5%) !important;
+	&:hover{
+		border: 1px solid darken($color, 10%) !important;
+		@include vertical_bg_gradient($color, darken($color, 3%));
+	}
+}
+
+@mixin form_shadow(){
+	@include box_shadow($grey-dark, 0, 1px, 1px, 0px);
+}

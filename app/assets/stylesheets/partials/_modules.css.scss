@@ -1,0 +1,59 @@
+.m-default{
+	background: white;
+	@include border_radius(5px,5px,5px,5px);
+	overflow: hidden;
+	border: 1px solid $grey;
+}
+
+.m-white{ 
+	background: white; 
+	border: 1px solid darken($grey-light, 5%);
+}
+.m-light-grey{
+	background: $grey-lightest;
+	border: 1px solid $grey;
+}
+.m-dark-grey{ background: $grey-dark; }
+.m-blue{ 
+	background: lighten($blue, 58%); 
+	border: 1px solid lighten($blue, 50%); 
+}
+
+.m-blank-slate{
+	border: 2px dashed $grey;
+}
+
+.m-head-banner{
+  width: 100%;
+  background: white;
+  margin-top: 2px;
+  border-bottom: 1px solid $grey;
+  border-top: 1px solid $grey;
+  h1{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: $light-black;
+  }
+  .search{
+    padding-top: 8px;
+    margin-bottom: 5px;
+    input[type=text]{
+      padding: 10px;
+      background: $grey-light;
+      border-right: 0px solid white !important;
+      &:focus{
+        border: 1px solid $grey !important;
+      }
+    }
+    button{
+      padding: 10px;
+      margin-left: -5px;
+      background: $grey-light;
+      border-right: 1px solid $grey !important;
+      border-top: 1px solid $grey !important;
+      border-bottom: 1px solid $grey !important;
+      i{ color: $grey-dark; }
+    }
+  }
+}
+

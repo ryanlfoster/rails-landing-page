@@ -1,0 +1,49 @@
+@mixin vertical_bg_gradient($top_color, $bottom_color){
+	background-color: $top_color; 
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($top_color), to($bottom_color));
+  background-image: -webkit-linear-gradient(top, $top_color, $bottom_color); 
+  background-image:    -moz-linear-gradient(top, $top_color, $bottom_color);
+  background-image:     -ms-linear-gradient(top, $top_color, $bottom_color);
+  background-image:      -o-linear-gradient(top, $top_color, $bottom_color);
+}
+
+@mixin box_shadow($color, $hoff, $voff, $blur, $spread){
+	-moz-box-shadow:    $hoff $voff $blur $spread $color !important;
+  -webkit-box-shadow: $hoff $voff $blur $spread $color !important;
+  box-shadow:         $hoff $voff $blur $spread $color !important;
+}
+
+@mixin inset_box_shadow($color, $hoff, $voff, $blur, $spread){
+	-moz-box-shadow:    inset $hoff $voff $blur $spread $color;
+  -webkit-box-shadow: inset $hoff $voff $blur $spread $color;
+  box-shadow:         inset $hoff $voff $blur $spread $color;
+}
+
+@mixin text_shadow($hoff, $voff, $blur, $color){
+  text-shadow: $hoff $voff $blur $color;
+}
+
+@mixin border_radius($top_left: 5px, $top_right: 5px, $bottom_left: 5px, $bottom_right: 5px){
+  -webkit-border-top-left-radius:     $top_left !important;
+  -webkit-border-top-right-radius:    $top_right !important;
+  -webkit-border-bottom-right-radius: $bottom_right !important;
+  -webkit-border-bottom-left-radius:  $bottom_left !important;
+  -moz-border-radius-topleft:         $top_left !important;
+  -moz-border-radius-topright:        $top_right !important;
+  -moz-border-radius-bottomright:     $bottom_right !important;
+  -moz-border-radius-bottomleft:      $bottom_left !important;
+  border-top-left-radius:             $top_left !important;
+  border-top-right-radius:            $top_right !important;
+  border-bottom-right-radius:         $bottom_right !important;
+  border-bottom-left-radius:          $bottom_left !important;
+}
+
+@mixin padding_v($padding){
+	padding-top: $padding;
+	padding-bottom: $padding;
+}
+
+@mixin padding_h($padding){
+	padding-left: $padding;
+	padding-right: $padding;
+}

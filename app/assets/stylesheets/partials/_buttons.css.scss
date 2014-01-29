@@ -1,0 +1,21 @@
+.btn{
+	&:hover{
+		@include box_shadow($dark-grey, 0, 1px, 1px, 0px);
+	}
+}
+
+.btn-primary{
+	@include default_button_style($blue);
+}
+
+.btn-success{
+	@include default_button_style($green);
+}
+
+.btn-danger{
+	@include default_button_style($red);
+}
+
+.btn-warning{
+	@include default_button_style($orange);
+}

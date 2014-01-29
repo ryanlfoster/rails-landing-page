@@ -1,0 +1,15 @@
+// Overide bootstrap-select blue glow
+.btn-group, .bootstrap-select{
+  .btn, button, .btn-group, .selectpicker{
+    &:focus{
+      outline: none !important; 
+      box-shadow:none !important;
+    }
+    li > a{
+      &:focus{
+        outline: none !important; 
+        box-shadow:none !important;
+      }     
+    }
+  }
+}

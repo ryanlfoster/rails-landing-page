@@ -1,3 +1,16 @@
+@import "mixins/all";
+
+// Colors
+$brand-primary: $blue;
+$brand-success: $green;
+$brand-warning: $orange;
+$brand-danger: $red;
+
+input, textarea, button, select, button{
+	outline: none !important;
+  border: none !important;
+  box-shadow:none !important;
+}
 
 // set all custom variables above import
 @import "bootstrap";

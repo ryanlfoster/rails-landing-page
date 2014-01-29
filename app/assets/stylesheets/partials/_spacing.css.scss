@@ -1,0 +1,77 @@
+// ===========
+// = Margins =
+// ===========
+.m-remove{ margin: 0 !important; }
+
+/* Small margins */
+.maxs { margin: 1px; }
+.mtxs { margin-top: 1px; }
+.mrxs { margin-right: 1px; }
+.mbxs { margin-bottom: 1px; }
+.mlxs { margin-left: 1px; }
+
+/* Small margins */
+.mas { margin: 5px; }
+.mts { margin-top: 5px; }
+.mrs { margin-right: 5px; }
+.mbs { margin-bottom: 5px; }
+.mls { margin-left: 5px; }
+
+/* Medium margins */
+.mam { margin: 10px; }
+.mtm { margin-top: 10px; }
+.mrm { margin-right: 10px; }
+.mbm { margin-bottom: 10px; }
+.mlm { margin-left: 10px; }
+
+/* Large margins */
+.mal { margin: 20px; }
+.mtl { margin-top: 20px; }
+.mrl { margin-right: 20px; }
+.mbl { margin-bottom: 20px; }
+.mll { margin-left: 20px; }
+
+/* Extra Large margins */
+.maxl { margin: 50px; }
+.mtxl { margin-top: 50px; }
+.mrxl { margin-right: 50px; }
+.mbxl { margin-bottom: 50px; }
+.mlxl { margin-left: 50px; }
+ 
+// ============
+// = Paddings =
+// ============
+.p-remove{ padding: 0 !important; }
+
+/* Small margins */
+.pas { padding: 5px; }
+.pts { padding-top: 5px; }
+.prs { padding-right: 5px; }
+.pbs { padding-bottom: 5px; }
+.pls { padding-left: 5px; }
+
+/* Medium margins */
+.pam { padding: 10px; }
+.ptm { padding-top: 10px; }
+.prm { padding-right: 10px; }
+.pbm { padding-bottom: 10px; }
+.plm { padding-left: 10px; }
+
+/* Large margins */
+.pal { padding: 20px; }
+.ptl { padding-top: 20px; }
+.prl { padding-right: 20px; }
+.pbl { padding-bottom: 20px; }
+.pll { padding-left: 20px; }
+
+/* Extra Large margins */
+.paxl { padding: 50px; }
+.ptxl { padding-top: 50px; }
+.prxl { padding-right: 50px; }
+.pbxl { padding-bottom: 50px; }
+.plxl { padding-left: 50px; }
+
+// ==========
+// = Widths =
+// ==========
+.w49pct{ width:49%; }

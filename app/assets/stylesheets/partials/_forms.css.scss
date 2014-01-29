@@ -1,0 +1,30 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=date],
+input[type=select],
+textarea{
+	border: 1px solid $grey !important;
+	&:focus{
+		border: 1px solid lighten($blue, 40%) !important;
+	}
+}
+
+// ==========
+// = Errors =
+// ==========
+.errors{
+  h4{ font-weight: 600; }
+  .alert{ 
+  	margin: 10px; 
+  	@include border_radius(5px,5px,5px,5px);
+  }
+  .alert-error{
+  	background: $red;
+  	color: $black;
+  }
+}
+.field-with-error{
+  input{ border: 1px solid $red !important; }
+}

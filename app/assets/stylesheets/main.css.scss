@@ -1,0 +1,22 @@
+// Global css, mixins, and Variables
+@import "partials/base";
+
+// Partials
+@import "partials/alerts";
+@import "partials/buttons";
+@import "partials/typography";
+@import "partials/spacing";
+@import "partials/navigation";
+@import "partials/layouts";
+@import "partials/forms";
+@import "partials/modules";
+@import "partials/images";
+@import "partials/bootstrap_custom";
+@import "partials/borders";
+@import "partials/links";
+
+// pages
+@import "pages/index";
+
+// config
+
