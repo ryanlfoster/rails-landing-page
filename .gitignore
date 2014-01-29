@@ -12,6 +12,7 @@ capybara-*.html
 .rspec
 /log
 /tmp
+/solr
 /db/*.sqlite3
 /public/system
 /coverage/
