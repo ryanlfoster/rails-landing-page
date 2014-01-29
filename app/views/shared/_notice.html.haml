@@ -1,0 +1,15 @@
+- if flash[:error] and !flash[:error].blank?
+  .alert.alert-error.fade.in
+    %a.close{"data-dismiss" => "alert", href: "#"} ×
+    .container
+      %p.error= flash[:error]
+- if flash[:notice] and !flash[:notice].blank?
+  .alert.alert-info.fade.in
+    %a.close{"data-dismiss" => "alert", href: "#"} ×
+    .container
+      %p.notice= flash[:notice]
+- if flash[:alert] and !flash[:alert].blank?
+  .alert.alert-warning.fade.in
+    %a.close{"data-dismiss" => "alert", href: "#"} ×
+    .container
+      %p.notice= flash[:alert]
