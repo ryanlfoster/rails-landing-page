@@ -2,3 +2,10 @@
   .row
     .col-md-12.text-center
       %h1.heading-l Welcome to your template app
+      
+      = link_to "Sign up", new_user_registration_path
+      - if current_user
+        = link_to "Sign out", destroy_user_session_path(@resource), method: :delete 
+      - else
+        = link_to "Sign in", new_user_session_path  
+        
