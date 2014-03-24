@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: apptemplate_development
+  database: landingpage_development
   pool: 5
   password:
 
@@ -45,13 +45,13 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: apptemplate_test
+  database: landingpage_test
   pool: 5
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: apptemplate_production
+  database: landingpage_production
   pool: 5
   password:
