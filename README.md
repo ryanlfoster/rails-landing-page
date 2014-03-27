@@ -29,8 +29,19 @@ bundle install
 rake db:setup
 ```
 
-### 3. Start Development Server
+### 3. Git Init
+```
+git remote rm origin
+git remote add origin git@github.com:YourUserName/your-new-app.git
+git add -a
+git commit -m "init"
+git push -u origin master
+```
+
+### 4. Start Development Server
 ```
 foreman start -f Procfile.dev
 ```
+
+
 Then browse to: ```localhost:5200```
