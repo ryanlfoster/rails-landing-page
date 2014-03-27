@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Apptemplate::Application.load_tasks
+Landingpage::Application.load_tasks
