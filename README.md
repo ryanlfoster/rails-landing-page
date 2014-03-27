@@ -8,7 +8,7 @@ git clone git@github.com:GAFuller/rails-landing-page.git YourAppName
 ```
 
 ### 2. Change Name of Application
-Change the application name from ```landingpage``` to whatever you want you app to be called in the following files:
+Change the application name from ```landingpage``` to whatever you want in the following files:
 ```
 config/environments/development.rb
 config/environments/production.rb
@@ -33,4 +33,4 @@ rake db:setup
 ```
 foreman start -f Procfile.dev
 ```
-then browse to: ```localhost:5200```
+Then browse to: ```localhost:5200```
